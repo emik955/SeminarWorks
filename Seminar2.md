@@ -36,11 +36,43 @@
 
 # Инструкция по разметке MarkDown
 
-## Как создавать заголовки
+## How to create headers
+# first level header 
+## H2 header
 
+### H3 header
+
+#### H4 header
+
+##### H5 header
+
+###### Header h6
 
 ## Как создавать таблицы
 
+## Таблицы:
+
+В чистом Маркдауне нет синтаксиса для таблиц, а в GFM
+есть.
+First Header | Second Header
+------------- | -------------
+Content Cell | Content Cell
+Content Cell | Content Cell
+Для красоты можно и по бокам линии нарисовать:
+| First Header | Second Header |
+| ------------- | ------------- |
+| Content Cell | Content Cell |
+| Content Cell | Content Cell |
+Можно управлять выравниванием столбцов при помощи
+двоеточия.
+| Left-Aligned | Center Aligned | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| col 3 is | some wordy text | **$1600** |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | ~~$1~~ |
+Внутри таблиц можно использовать ссылки, наклонный,
+жирный или зачеркнутый текст.
+Для всего остального есть обычный HTML.
 
 ## Как добавлять картинки
 
